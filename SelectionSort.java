@@ -36,7 +36,7 @@ public class SelectionSort {
         for (int i = 0; i < arr2.length; i++) {
             int max_index = i;
             for (int j = i + 1; j < arr2.length; j++) {
-                if (arr2[j] > arr2[max_index]) { // change comparison to >
+                if (arr2[j] > arr2[max_index]) { 
                     max_index = j;
                 }
             }
